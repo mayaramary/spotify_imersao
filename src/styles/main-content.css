@@ -105,14 +105,14 @@
   }
   
   .playlist #greeting {
-    color: #fff;
+    color: #ffffff;
     font-size: 32px;
     font-weight: 700;
     margin-bottom: 48px;
   }
   
   .playlist .session {
-    color: #fff;
+    color: #ffffff;
     font-size: 24px;
     font-weight: 700;
   }
@@ -131,10 +131,14 @@
     border: 0;
 }
   .offer__scroll-container::-webkit-scrollbar {
-    width: 1px;
+    width: 6px;
   }
   
   .offer__scroll-container::-webkit-scrollbar-thumb {
+    background-color:#242424;
+    
+  }
+  .offer__scroll-container::-webkit-scrollbar-corner {
     background-color: transparent;
   }
   /* FIM SCROLL */
@@ -160,7 +164,7 @@
     height: 200px;
     overflow: hidden;
     border-radius: 8px;
-  }
+    }
   
   .cards span {
     padding: 16px;
