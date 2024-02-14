@@ -93,7 +93,7 @@ body {
     position: relative;
 }
 
-.filtro_navigation .playlist_button{
+.option_navigation .playlist_button{
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     border-radius: 9999px;
@@ -112,7 +112,7 @@ body {
     cursor: pointer;
 }
 
-.filtro_navigation .artista_button{
+.option_navigation .artista_button{
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     border-radius: 9999px;
@@ -132,7 +132,7 @@ body {
 
 }
 
-.filtro_navigation .albuns_button{
+.option_navigation .albuns_button{
     box-sizing: border-box;
     -webkit-tap-highlight-color: transparent;
     border-radius: 9999px;
@@ -200,6 +200,52 @@ body {
     border: 0px;
     width: 113px;  
 }
+.section-podcast{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 20px; 
+    background-color: #242424; 
+    color: #b3b3b3;  
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+.section-podcast .section-podcast_content{
+    display: flex;
+    flex-direction: column;
+}
+.section-podcast_content .text {
+    padding-bottom: 14px;
+    color: #fff;
+}
+.section-podcast_content .title {
+    font-weight: 700;
+}
+
+.section-podcast_content .subtitle{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.section-podcast_content .section-podcast_button {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000;
+    border-radius: 20px;    
+    font-size: 11px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: none;
+    padding: 10px;
+    margin-top: 12px;
+    border: 0px;
+    width: 113px;
+} 
+
 .sidebar .cookies{
     margin: 25px 20px;
 
